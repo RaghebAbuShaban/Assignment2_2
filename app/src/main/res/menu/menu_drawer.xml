@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/nav_chat"
+            android:title="Chat"
+            android:icon="@drawable/chat"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/settings"/>
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/person"/>
+
+    </group>
+
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+
+        </menu>
+
+    </item>
+</menu>
